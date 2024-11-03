@@ -24,7 +24,7 @@ warnings.filterwarnings('ignore')
 def create_dash_app(flask_app):
 
     # making a dash to run in the server __name__; stylesheet = html styling
-    app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], server=flask_app, url_base_pathname='/plotter/')
+    app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], server=flask_app, url_base_pathname='/dash/') # this mounts the Dash app at /dash/ ("/" by default is required at the end)
 
     # create a background template for plots
     templates = ['plotly', 'seaborn', 'simple_white', 'ggplot2',

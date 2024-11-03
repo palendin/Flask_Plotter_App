@@ -24,7 +24,7 @@ def contact_info():
     return render_template("pages/contact_info.html")
 
 
-@bp.route("/plotter")
+@bp.route("/plotter") # make sure the route is the same as in dash app. (see dash_app.py)
 def plotter():
     return render_template("pages/plotter.html")
 
