@@ -1,19 +1,19 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "board/(.*)",
-      "use": "@vercel/python",
-      "config": {
-        "runtime": "python3.8",
-        "installCommand": "pip install -r ../requirements.txt"
+    "version": 2,
+    "builds": [
+      {
+        "src": "run.py",
+        "use": "@vercel/python",
+        "config": {
+          "runtime": "python3.8",
+          "installCommand": "pip install -r requirements.txt"
+        }
       }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "board/run.py"
-    }
-  ]
-}
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/run.py"
+      }
+    ]
+  }
