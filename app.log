@@ -1,0 +1,83 @@
+DEBUG:board:Debugging information at app start...
+DEBUG:board:Creating schema
+DEBUG:board:Schema created or already exists
+DEBUG:board:Tables created or already exist
+DEBUG:board:Current Environment: Development
+DEBUG:board:Using Database: postgresql://postgres:runescape@localhost/postgres?options=-csearch_path%3Dmessage_board
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.5.171:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:board:Debugging information at app start...
+DEBUG:board:Creating schema
+DEBUG:board:Schema created or already exists
+DEBUG:board:Tables created or already exist
+DEBUG:board:Current Environment: Development
+DEBUG:board:Using Database: postgresql://postgres:runescape@localhost/postgres?options=-csearch_path%3Dmessage_board
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 902-114-115
+DEBUG:board:Debugging information at app start...
+DEBUG:board:Creating schema
+DEBUG:board:Schema created or already exists
+DEBUG:board:Tables created or already exist
+DEBUG:board:Current Environment: Development
+DEBUG:board:Using Database: postgresql://postgres:runescape@localhost/postgres?options=-csearch_path%3Dmessage_board
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.5.171:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:board:Debugging information at app start...
+DEBUG:board:Creating schema
+DEBUG:board:Schema created or already exists
+DEBUG:board:Tables created or already exist
+DEBUG:board:Current Environment: Development
+DEBUG:board:Using Database: postgresql://postgres:runescape@localhost/postgres?options=-csearch_path%3Dmessage_board
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 902-114-115
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:20:57] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:20:57] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:20:57] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:20:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:04] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:08] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:15] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:15] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 19:21:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\wayne\\.vscode\\Flask_Plotter_App\\run.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:board:Debugging information at app start...
+DEBUG:board:Creating schema
+DEBUG:board:Schema created or already exists
+DEBUG:board:Tables created or already exist
+DEBUG:board:Current Environment: Development
+DEBUG:board:Using Database: postgresql://postgres:runescape@localhost/postgres?options=-csearch_path%3Dmessage_board
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 902-114-115
+INFO:werkzeug: * Detected change in 'c:\\Users\\wayne\\.vscode\\Flask_Plotter_App\\board\\extensions.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:board:Debugging information at app start...
+DEBUG:board:Creating schema
+DEBUG:board:Schema created or already exists
+DEBUG:board:Tables created or already exist
+DEBUG:board:Current Environment: Development
+DEBUG:board:Using Database: postgresql://postgres:runescape@localhost/postgres?options=-csearch_path%3Dmessage_board
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 902-114-115
+INFO:werkzeug: * Detected change in 'c:\\Users\\wayne\\.vscode\\Flask_Plotter_App\\board\\extensions.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:board:Debugging information at app start...
+DEBUG:board:Creating schema
+DEBUG:board:Schema created or already exists
+DEBUG:board:Tables created or already exist
+DEBUG:board:Current Environment: Development
+DEBUG:board:Using Database: postgresql://postgres:runescape@localhost/postgres?options=-csearch_path%3Dmessage_board
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 902-114-115
+INFO:werkzeug:127.0.0.1 - - [18/Dec/2024 20:25:21] "GET /login HTTP/1.1" 200 -
