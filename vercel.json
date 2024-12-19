@@ -5,7 +5,8 @@
       "src": "board/(.*)",
       "use": "@vercel/python",
       "config": {
-        "runtime": "python3.8"
+        "runtime": "python3.8",
+        "installCommand": "pip install -r ../requirements.txt"
       }
     }
   ],
