@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "board/",
+      "src": "board/(.*)",
       "use": "@vercel/python",
       "config": {
         "runtime": "python3.8",
